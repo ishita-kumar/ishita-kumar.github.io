@@ -30,7 +30,7 @@ button {
   outline: none;
 }
 button::before {
-  content: "More ";
+  content: " ";
 }
 .page-about {
   position: relative;
