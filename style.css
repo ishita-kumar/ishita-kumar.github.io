@@ -6,6 +6,9 @@ body {
   width: 100%;
   overflow-x: hidden;
   /* overflow-y: hidden; */
+  position: relative;
+  min-height: 100%;
+  min-height: 100vh;
   
 }
 
@@ -360,19 +363,25 @@ button {
   height: 100%;
   min-height: 100%;
 }
+.ifa1 {
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.5em 0.6em;
 
+}
 .footer {
   bottom: 0;
   min-height: 30%;
   position: relative;
 }
 .footer .container {
-  left: 50%;
+  /* left: 50%;
   padding-top: 1.3em;
   position: absolute;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 100%;
+  width: 100%; */
 }
 
 .fixed-width {
