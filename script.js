@@ -21,7 +21,10 @@
 // THE SOFTWARE.
 
 
-
+$('.trigger').click(function() {
+    $(this).parents('.page-about').toggleClass('show-info');
+  });
+  
 
 ! function($) {
 
@@ -96,9 +99,6 @@
         // All systems go!
         this.build();
     };
-	$('.trigger').click(function() {
-  $(this).parents('.page-about').toggleClass('show-info');
-});
 
     Typed.prototype = {
 
