@@ -45,6 +45,28 @@ button::before {
   background-color: white;
   box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, 0.1);
 }
+@media only screen and (max-width: 600px) {
+  .page-about {
+    display: none;
+  }
+}
+
+.me {
+  position: absolute;
+  top: 0;
+  left: 60%;
+  width: 50%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@media only screen and (max-width: 600px) {
+  .me {
+    display: none;
+  }
+}
+
 .left-side {
   position: absolute;
   width: 50%;
@@ -442,6 +464,8 @@ button {
 .card__like {
   width: 18px;
 }
+
+
 
 .card__clock {
   width: 15px;
