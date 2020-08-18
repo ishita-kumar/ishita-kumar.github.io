@@ -370,6 +370,7 @@ button {
   padding: 0.5em 0.6em;
 
 }
+
 .footer {
   bottom: 0;
   min-height: 30%;
@@ -684,6 +685,7 @@ a:hover {
   white-space: nowrap;
 }
 
+
 /*----- TIMELINE MARKER -----*/
 .timeline-marker {
   position: absolute;
@@ -934,4 +936,29 @@ section article.skills div:nth-child(8) span:nth-child(2) {
     opacity: 1;
   }
 }
+
+@media (max-width: 767px) {
+  .cards {
+    width: 100%;
+    display: block;
+    text-align: center;
+    /* display: -webkit-flex; */
+    justify-content: center;
+    -webkit-justify-content: center;
+    /* max-width: 820px; */
+  }
+  .card {
+    margin-right: 25px;
+    transition: all .4s cubic-bezier(0.175, 0.885, 0, 1);
+    background-color: #fff;
+      width: 100%;
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 13px 10px -7px rgba(0, 0, 0,0.1);
+    }
+    
+ }
+
+
 
