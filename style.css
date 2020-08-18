@@ -45,6 +45,12 @@ button::before {
   background-color: white;
   box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, 0.1);
 }
+.cen {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  /* background-color: #66ffff; */
+}
 @media only screen and (max-width: 600px) {
   .page-about {
     display: none;
@@ -78,7 +84,7 @@ button::before {
   left: 50%;
   width: 50%;
   height: 100%;
-  background-image: url("assets/host.jpg");
+  background-image: url("assets/host3.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -975,13 +981,20 @@ section article.skills div:nth-child(8) span:nth-child(2) {
     margin-right: 25px;
     transition: all .4s cubic-bezier(0.175, 0.885, 0, 1);
     background-color: #fff;
-      width: 100%;
+      /* width: 100%; */
     position: relative;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0px 13px 10px -7px rgba(0, 0, 0,0.1);
     }
-    
+    .cen {
+      /* width: 100%; */
+      margin: 0 auto;
+      text-align: center;
+    }
+    .container{
+      margin-left: 20px;
+    }
  }
 
 
