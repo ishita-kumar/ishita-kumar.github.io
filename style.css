@@ -435,7 +435,18 @@ button {
   -webkit-justify-content: center;
   max-width: 820px;
 }
-
+.card--11 .card__img,
+.card--11 .card__img--hover {
+  background-image: url("assets/COVID.png");
+}
+.card--12 .card__img,
+.card--12 .card__img--hover {
+  background-image: url("assets/weather.png");
+}
+.card--13 .card__img,
+.card--13 .card__img--hover {
+  background-image: url("assets/homicide.png");
+}
 .card--1 .card__img,
 .card--1 .card__img--hover {
   background-image: url("assets/Design.png");
@@ -471,20 +482,20 @@ button {
 }
 .card--9 .card__img,
 .card--9 .card__img--hover {
-  background-image: url("assets/word_cloud.png");
+  background-image: url("assets/wordcl.png");
 }
 
-card--11 .card__img,
+.card--11 .card__img,
 .card--11 .card__img--hover {
   background-image: url("assets/COVID.png");
 }
 
-card--12 .card__img,
+.card--12 .card__img,
 .card--12 .card__img--hover {
   background-image: url("assets/weather.png");
 }
 
-card--13 .card__img,
+.card--13 .card__img,
 .card--13 .card__img--hover {
   background-image: url("assets/homicide.png");
 }
